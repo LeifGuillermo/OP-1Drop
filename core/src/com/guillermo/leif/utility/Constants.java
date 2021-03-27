@@ -1,4 +1,4 @@
-package com.guillermo.leif;
+package com.guillermo.leif.utility;
 
 public class Constants {
     public static int VIEW_WIDTH = 800;

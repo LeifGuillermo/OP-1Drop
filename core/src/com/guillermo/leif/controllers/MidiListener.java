@@ -1,5 +1,6 @@
-package com.guillermo.leif;
+package com.guillermo.leif.controllers;
 
+import com.guillermo.leif.screens.MidiDropsGameScreen;
 import com.guillermo.leif.utility.MidiDevicePrinter;
 
 import javax.sound.midi.*;

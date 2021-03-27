@@ -1,9 +1,9 @@
 package com.guillermo.leif.controllers;
 
-import com.guillermo.leif.MidiDropsGameScreen;
+import com.guillermo.leif.screens.MidiDropsGameScreen;
 
-import static com.guillermo.leif.Constants.MAX_BUCKET_SPEED;
-import static com.guillermo.leif.Constants.MIN_BUCKET_SPEED;
+import static com.guillermo.leif.utility.Constants.MAX_BUCKET_SPEED;
+import static com.guillermo.leif.utility.Constants.MIN_BUCKET_SPEED;
 
 public class Op1Controller {
     private final int MAX_ENCODER_VALUE = 127;

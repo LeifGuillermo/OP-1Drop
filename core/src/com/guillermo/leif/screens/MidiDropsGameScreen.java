@@ -1,4 +1,4 @@
-package com.guillermo.leif;
+package com.guillermo.leif.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -14,13 +14,14 @@ import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.TimeUtils;
+import com.guillermo.leif.DropGame;
+import com.guillermo.leif.controllers.MidiListener;
 import com.guillermo.leif.controllers.Op1Controller;
-import com.guillermo.leif.screens.DropGame;
 
 import javax.sound.midi.MidiUnavailableException;
 import java.util.Iterator;
 
-import static com.guillermo.leif.Constants.*;
+import static com.guillermo.leif.utility.Constants.*;
 
 public class MidiDropsGameScreen implements Screen {
     /*Game State*/

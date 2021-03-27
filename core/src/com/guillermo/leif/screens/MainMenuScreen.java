@@ -4,10 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.guillermo.leif.MidiDropsGameScreen;
+import com.guillermo.leif.DropGame;
 
-import static com.guillermo.leif.Constants.VIEW_HEIGHT;
-import static com.guillermo.leif.Constants.VIEW_WIDTH;
+import static com.guillermo.leif.utility.Constants.VIEW_HEIGHT;
+import static com.guillermo.leif.utility.Constants.VIEW_WIDTH;
 
 public class MainMenuScreen implements Screen {
     private final DropGame game;

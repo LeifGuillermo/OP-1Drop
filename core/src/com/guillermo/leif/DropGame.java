@@ -1,8 +1,9 @@
-package com.guillermo.leif.screens;
+package com.guillermo.leif;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.guillermo.leif.screens.MainMenuScreen;
 
 public class DropGame extends Game {
     public SpriteBatch batch;
